@@ -45,6 +45,17 @@ bt: Error: Detailed error message
 where bt is actually the name of the executable (argv[0]) and should be appropriately modified if the name of executable is changed without recompilation. These error messages should be sent to stderr using perror. 
 It is required for this project that you use version control, a Makefile, and a README.
 
+I was able to use github.com
+https://github.com/vjtarun/os_ass1
+
+I created a partial bt.c
+which uses getopt function and stderr ( which was the intent)
+
+I created makefile and readme.
+
+What is left is real program which does a bfs, used a queue, and prints the results.
+I want to learn it and do it.I will try to complete it by today if not I will keep on working on it as a learning project.
+
 HOW TO RUN:
 1.In your command promt, type: make
 2.This will generate .o file and executable file
